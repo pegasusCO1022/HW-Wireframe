@@ -1,87 +1,71 @@
-.container{
-        margin-left:0;
-        margin-right: 0;
-        margin-bottom:0;
-        margin-top:0;
-        }
-
 body{
+    background-color: #777;
+    width: 960px;
+    color: #ebebeb;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    background: #777;
+    margin: 0 auto 0 auto;
+    text-align: center;
 }
 
-Header{
+header{ 
     background-color: #ebebeb;
-    color:#777;
-    width: 960px;
+    color: #777;
     padding: 20px;
-    margin: 20px;
-} 
+    margin: 10px;
+}
+
 nav{
     background-color: #ebebeb;
-    color:#777;
-    width: 960px;
+    color: #777;
     padding: 20px;
-    margin: 20px;
-} 
+    margin: 10px;
+}
+
+section{
+    width: 495px;
+    background-color: #ebebeb;
+    float: left;
+    margin: 10px;
+    overflow: hidden;
+}
+
+aside{
+    background-color: #ebebeb;
+    float: left;
+    margin: 10px;
+    width: 425px;
+    height: 265px;
+}
+
+article{ 
+    background-color: #777;
+    color: #ebebeb;
+    margin: 10px;
+    padding: 10px;
+}
+
+.clear{
+    clear: both;
+}
 
 footer{
     background-color: #ebebeb;
-    color:#777;
-    width: 960px;
-    padding: 20px;
-    margin: 20px;
-    bottom: 0;
-    position: fixed;
-}
-
-Section{
-    clear: both;
-    background-color: #ebebeb;
-    color:#777;
-    width:455px;
-    float: left;
-    margin: 20px;
-    padding: 20px;
-    height: 200;
-    position: relative;
-}
-
-Aside{
-    background-color: #ebebeb;
-    color:#777;
-    width: 425px;
-    float: left;
-    margin: 20px;
-    padding: 20px;
-    height: 200px;
-}
-
-Article{ 
-    clear: both;  
-    background-color:#777;
-    color: #ebebeb;
-    padding: 20px;
-    margin: 0;
-    overflow: auto;
-}
-
-h4{
-    text-align: center;
-    background: #ebebeb;
     color: #777;
-    padding: 10px;
-}
-
-h5{
-    text-align: center;
-
+    padding: 20px;
+    margin: 10px;
 }
 
 p{
-    text-align: center;
-    background: #ebebeb;
+    background-color: #ebebeb;
+    padding: 10px;
+    color: #777;
+    margin: 10px;
+}
+
+h3{
+    background-color: #ebebeb;
     color: #777;
     padding: 10px;
+    margin: 10px;
 }
